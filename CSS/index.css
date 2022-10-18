@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  align-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #000;
+  border-top-left-radius: 0;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+header p {
+  padding-left: 15pt;
+  max-width: 150px;
+  font-size: 15pt;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.right-side a {
+  font-size: 15pt;
+}
+
+.role {
+  text-align: center;
+  font-size: 75pt;
+  max-width: 101.38px;
+}
+
+.middle-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role-name {
+  padding-right: 10px;
+  float: right;
+  text-align: center;
+  max-width: 265pt;
+  font-size: 75pt;
+}
+
+.frame-img {
+  width: 100%;
+}
+
+.icon-img {
+  padding-top: 50pt;
+  width: 4%;
+  height: 4%;
+}
+
+.talent {
+  font-size: 15pt;
+  max-width: 150px;
+  padding-top: 50pt;
+}
+
+.skills {
+  padding-top: 125pt;
+  padding-bottom: 125pt;
+}
+
+.skills h1 {
+  font-size: 80pt;
+  text-align: center;
+}
+
+.skills img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project h1 {
+  font-size: 75pt;
+}
+
+.project-summary {
+  padding-top: 40pt;
+  display: inline-block;
+  max-width: 500px;
+}
+
+.project-summary h2 {
+  padding-top: 35pt;
+}
+
+.project-summary p {
+  padding-top: 15pt;
+}
+
+.project-summary-name {
+  display: inline-block;
+  font-size: 65pt;
+  max-width: 150px;
+}
+
+#See-more {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  cursor: pointer;
+}
+
+.project-summary {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.project:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.project-summary-img1,
+.project-summary-img2 {
+  float: right;
+  width: 49%;
+}
+
+.website-redesign {
+  padding-top: 100pt;
+}
+
+.website-redesign-container {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.website-redesign-container h1 {
+  font-size: 75pt;
+}
+
+.website-redesign-container img {
+  width: 100%;
+}
+.website-redesign-container #See-more {
+  width: 25%;
+}
+
+.bottom-page {
+  display: block;
+  text-align: center;
+  padding-top: 50pt;
+}
+
+.bottom-page h1 {
+  font-size: 70pt;
+}
+
+.bottom-page p {
+  font-size: 18pt;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer-class {
+  padding-top: 100pt;
+}
+/* flex box, all on one row */
+.footerLogos {
+  display: flex;
+}
+.footerLogos img {
+  width: 40%;
+  padding-left: 0%;
+}
+
+.footerLogos li {
+  padding-left: 10pt;
+}
+
+.footerLogos p {
+  padding-left: 15pt;
+  font-size: 20pt;
+}
+
+.myWork{
+  text-align: center;
+  font-size: 100pt;
+}
+@media only screen and (max-width: 600) {
+  .project {
+    flex-direction: column;
+  }
+}
