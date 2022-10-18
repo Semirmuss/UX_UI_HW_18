@@ -211,7 +211,7 @@ header p {
   text-align: center;
   font-size: 100pt;
 }
-@media only screen and (max-width: 600) {
+@media screen and (max-width: 600) {
   .project {
     flex-direction: column;
   }
